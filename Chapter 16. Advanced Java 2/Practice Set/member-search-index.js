@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"PS_01_JavaDoc","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"<Unnamed>","c":"PS_01_JavaDoc","l":"PS_01_JavaDoc()","u":"%3Cinit%3E()"},{"p":"<Unnamed>","c":"PS_01_JavaDoc","l":"writeInFile(String, String)","u":"writeInFile(java.lang.String,java.lang.String)"}];updateSearchResults();

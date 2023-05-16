@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch PR_11_DiamondPattern",
+            "request": "launch",
+            "mainClass": "PR_11_DiamondPattern",
+            "projectName": "Practice_Set_9fed56d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch PR_08_Pattern1_Recursion",
+            "request": "launch",
+            "mainClass": "PR_08_Pattern1_Recursion",
+            "projectName": "Practice_Set_9fed56d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch PR_08_Pattern2_Recursion",
+            "request": "launch",
+            "mainClass": "PR_08_Pattern2_Recursion",
+            "projectName": "Practice_Set_9fed56d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch PR_07_Pattern1_Recursion",
+            "request": "launch",
+            "mainClass": "PR_07_Pattern1_Recursion",
+            "projectName": "Practice_Set_9fed56d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch PR_11_Pattern1_Recursion",
+            "request": "launch",
+            "mainClass": "PR_11_Pattern1_Recursion",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

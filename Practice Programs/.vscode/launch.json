@@ -1,0 +1,147 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch NumberPattern2",
+            "request": "launch",
+            "mainClass": "NumberPattern2",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberPattern1",
+            "request": "launch",
+            "mainClass": "NumberPattern1",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern9",
+            "request": "launch",
+            "mainClass": "Pattern9",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern8",
+            "request": "launch",
+            "mainClass": "Pattern8",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern7",
+            "request": "launch",
+            "mainClass": "Pattern7",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern6",
+            "request": "launch",
+            "mainClass": "Pattern6",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern5",
+            "request": "launch",
+            "mainClass": "Pattern5",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern4",
+            "request": "launch",
+            "mainClass": "Pattern4",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern3",
+            "request": "launch",
+            "mainClass": "Pattern3",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern2",
+            "request": "launch",
+            "mainClass": "Pattern2",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern1",
+            "request": "launch",
+            "mainClass": "Pattern1",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwinPrimeNumber",
+            "request": "launch",
+            "mainClass": "TwinPrimeNumber",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch TechNumber",
+            "request": "launch",
+            "mainClass": "TechNumber",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch NeonNumber",
+            "request": "launch",
+            "mainClass": "NeonNumber",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Digits",
+            "request": "launch",
+            "mainClass": "Digits",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch TransposedMatrix",
+            "request": "launch",
+            "mainClass": "TransposedMatrix",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculation",
+            "request": "launch",
+            "mainClass": "Calculation",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Frequency",
+            "request": "launch",
+            "mainClass": "Frequency",
+            "projectName": "Practice Programs_310a33b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeLimit",
+            "request": "launch",
+            "mainClass": "PrimeLimit",
+            "projectName": "Practice Programs_310a33b6"
+        }
+    ]
+}
