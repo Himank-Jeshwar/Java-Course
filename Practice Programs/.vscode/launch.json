@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PositionCalculator",
+            "request": "launch",
+            "mainClass": "PositionCalculator",
+            "projectName": "Practice Programs_2e64da69"
+        },
+        {
+            "type": "java",
             "name": "Launch NumberPattern2",
             "request": "launch",
             "mainClass": "NumberPattern2",

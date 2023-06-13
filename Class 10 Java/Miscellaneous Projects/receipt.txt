@@ -1,0 +1,11 @@
+=============================
+Price per plate : 209
+Dish Choice : Starters
+Dish Type : Non Veg
+Dish Name :   Crispy Chicken               
+Number of plates : 90
+==============================
+
+
+
+TOTAL BILL : Rs.21537.45

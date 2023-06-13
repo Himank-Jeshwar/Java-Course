@@ -13,7 +13,7 @@ class PR_15_TestChar{
         PR_15_TestChar testChar = new PR_15_TestChar();
     
         Scanner sc = new Scanner (System.in);
-         
+
         do{
             System.out.println("Enter sentence : ");
             st = sc.nextLine();
