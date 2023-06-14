@@ -1,0 +1,11 @@
+==============================
+Price per plate : 699
+Dish Choice : Main Course
+Dish Type : Non Veg
+Dish Name :   Butter Chicken               
+Number of plates : 6
+==============================
+
+
+
+TOTAL BILL : Rs.4802.13

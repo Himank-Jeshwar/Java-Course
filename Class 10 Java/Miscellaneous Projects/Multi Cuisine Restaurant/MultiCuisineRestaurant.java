@@ -117,7 +117,7 @@ class MultiCuisineRestaurant{
                 }
                 file.close();
             
-        receiptWriter.append("=============================\nPrice per plate : "+priceInText+"\n");
+        receiptWriter.append("==============================\nPrice per plate : "+priceInText+"\n");
         receiptWriter.append("Dish Choice : "+(ch=='a'?"Starters":ch=='b'?"Main Course":"Desserts")+"\n");
        
         if (ch!='c')

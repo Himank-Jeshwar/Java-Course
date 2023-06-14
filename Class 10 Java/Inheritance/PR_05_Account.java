@@ -4,16 +4,16 @@ class Account {
 
     Account (){
         // default constructor
-        balance = 0;
-        acno = 0;
     }
     
     Account (int a,int b){
+        // initializing
         acno = a;
         balance = b;
     }
 
     void withdraw(int w){
+        // checking whether withdrawal amount exceeds balance
         if (w>balance)
             System.out.println("Insufficient Balance.");
         else 
@@ -21,16 +21,20 @@ class Account {
     }
 
     void deposit (int d){
-        balance+=d;
+        balance+=d; // taking deposit
     }
 }
 
 class Calculate extends Account{
-    int r,t;
+    // declaration
+    int r,t; 
     float si,amt;
 
+    Calculate(){
+        // default constructor
+    }
     Calculate(int a,int b){
-        super(a, b);
+        super(a, b); // passing to base class constructor
     }
     void accept(int x,int y){
         r = x;
@@ -54,6 +58,7 @@ class Calculate extends Account{
 
 class PR_05_Account{
     public static void main(String[] args) {
+        // instantiation
         Calculate cal = new Calculate(39381,396);
 
         cal.deposit(1920);
