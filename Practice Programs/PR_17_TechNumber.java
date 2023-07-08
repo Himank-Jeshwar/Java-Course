@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class TechNumber {
+public class PR_17_TechNumber {
     public static void main(String[] args) {
     // declaration
     int num,noOfDigits = 1,i = 1; String msg;

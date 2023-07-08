@@ -1,4 +1,4 @@
-public class NumberPattern2 {
+public class PR_05_NumberPattern2 {
     public static void main(String[] args) {
         int c = 0;
         for (int i = 1;i<=4;i++){

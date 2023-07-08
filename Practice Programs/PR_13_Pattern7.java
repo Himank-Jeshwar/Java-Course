@@ -1,4 +1,4 @@
-public class Pattern7 {
+public class PR_13_Pattern7 {
     public static void main(String[] args) {
         for (int k = 1;k<=5;k++){
             /*

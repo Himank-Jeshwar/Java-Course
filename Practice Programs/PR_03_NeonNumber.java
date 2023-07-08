@@ -5,7 +5,7 @@
 /* Ex 2: square(4) = 16 => 1+6 = 7
     Hence, 4 is not a neon number. */
 import java.util.Scanner;
-public class NeonNumber {
+public class PR_03_NeonNumber {
     public static void main(String[] args) {
         int n;
         Scanner sc = new Scanner (System.in);

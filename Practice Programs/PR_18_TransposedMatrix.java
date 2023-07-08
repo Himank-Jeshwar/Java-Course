@@ -1,4 +1,4 @@
-public class TransposedMatrix{
+public class PR_18_TransposedMatrix{
     
     public static void main(String[] args) {
         int [][] originalMat = {{2,9,3},

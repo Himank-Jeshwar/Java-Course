@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PR_21_RationalClass",
+            "request": "launch",
+            "mainClass": "PR_21_RationalClass",
+            "projectName": "Practice Programs_2e64da69"
+        },
+        {
+            "type": "java",
+            "name": "PR_20_Numbers",
+            "request": "launch",
+            "mainClass": "PR_20_Numbers",
+            "projectName": "Practice Programs_2e64da69"
+        },
+        {
+            "type": "java",
+            "name": "TransposedMatrix",
+            "request": "launch",
+            "mainClass": "TransposedMatrix",
+            "projectName": "Practice Programs_2e64da69"
+        },
+        {
+            "type": "java",
             "name": "PositionCalculator",
             "request": "launch",
             "mainClass": "PositionCalculator",

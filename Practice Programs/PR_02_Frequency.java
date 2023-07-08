@@ -1,4 +1,4 @@
-public class Frequency {
+public class PR_02_Frequency {
     public static void main(String[] args) {
         int [] arr = {15,67,67,15,90,56,56,78,56,90};
         System.out.println("ELEMENT\t\tFREQUENCY");

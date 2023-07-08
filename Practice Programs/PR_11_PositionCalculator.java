@@ -1,5 +1,5 @@
 import java.util.*;
-class PositionCalculator {
+class PR_11_PositionCalculator {
     static int extractAtomicNumber(String element){
         String el [] = {"H","He","Li","Be","B","C","N","O","F","Ne","Na","Mg","Al","Si","P","S","Cl","Ar","K","Ca"};
         int atNum = 0;

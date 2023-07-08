@@ -1,4 +1,4 @@
-public class Pattern5 {
+public class PR_10_Pattern5 {
     public static void main(String[] args) {
         // Execute this for method 2 and 3
         // for(int i = 1;i<=4;i++){

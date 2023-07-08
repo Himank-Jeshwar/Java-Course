@@ -1,4 +1,4 @@
-public class PrimeLimit {
+public class PR_16_PrimeLimit {
     boolean isPrime(int n){
         boolean checkPrimeOrNot = (n==2)?true:false;
         for (int i = 2;i<n;i++){
@@ -19,7 +19,7 @@ public class PrimeLimit {
             return factorsPrimeOrNot;
             }
     public static void main(String[] args) {
-        PrimeLimit Pl = new PrimeLimit();
+        PR_16_PrimeLimit Pl = new PR_16_PrimeLimit();
         System.out.println(Pl.areAllFactorsPrime(1));
     }     
 }

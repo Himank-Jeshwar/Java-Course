@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class TwinPrimeNumber {
+public class PR_19_TwinPrimeNumber {
     static boolean isPrime(int num){
         boolean primeOrNot = (num==2)?true:false;
         for (int x = 2;x<num;x++){
