@@ -19,15 +19,17 @@ class ASG_10_Time {
         System.out.println(h+":"+m+":"+s);
     }
     void add(){
-        int sec;
+        int sec,hr,min;
         Scanner sc = new Scanner (System.in);
         System.out.print("Enter seconds to add : ");
         sec = sc.nextInt();
         
         // calculation
-        h+=sec/3600;
+        hr = sec/3600;
+        h+=hr;
         sec%=3600;
-        m+=sec/60;
+        min = sec/60;
+        m+=min;
         sec = sec%60;
         s+=sec;
 
@@ -40,6 +42,7 @@ class ASG_10_Time {
             m-=60;
             h++;
         }
+        System.out.println("Increase in time : "+hr+" hour(s) "+min+" minute(s) "+sec+" second(s)");
     }
     public static void main(String[] args) {
         ASG_10_Time t = new ASG_10_Time();
