@@ -1,0 +1,11 @@
+Design a program that has
+
+DATA MEMBERS:
+String s;
+
+MEMBER METHODS:
+String remove(String s,char ch) - removes a character from the string.
+String remove(String s,String f)- removes a word from the string.
+
+WAP to accept a string from the user. Ask the user whether he wants to 
+remove a character/word from string and call the above functions accordingly.
