@@ -1,8 +1,9 @@
+import java.util.ArrayList;
+
 class PR_03_Pascal_Triangle {
     public static void main(String[] args) {
         int m [] = new int [20];
         m[0] = 1;
-        
         for (int i = 0;i<6;i++){
             for (int k = 6;k>i;k--)
                 System.out.print(" ");
