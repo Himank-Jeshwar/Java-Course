@@ -4,7 +4,7 @@ class ASG_14_LongestWord {
         String s,longest = "",w="";
         int max = 0;
         Scanner sc = new Scanner (System.in);
-        System.out.print("Enter sentence : ");
+        System.out.println("Enter sentence : ");
         s = sc.nextLine().trim()+" ";
 
         for (int i = 0;i<s.length();i++){

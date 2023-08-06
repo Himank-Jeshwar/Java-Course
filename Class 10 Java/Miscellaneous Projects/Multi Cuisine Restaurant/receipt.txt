@@ -1,11 +1,11 @@
 ==============================
-Price per plate : 699
+Price per plate : 199
 Dish Choice : Main Course
-Dish Type : Non Veg
-Dish Name :   Butter Chicken               
-Number of plates : 6
+Dish Type : Veg
+Dish Name :   Moong Dal                    
+Number of plates : 7
 ==============================
 
 
 
-TOTAL BILL : Rs.4802.13
+TOTAL BILL : Rs.1594.9850000000001

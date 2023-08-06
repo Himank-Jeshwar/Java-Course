@@ -1,6 +1,6 @@
-class Sets {
+class PR_07_Sets {
     private int arr[],index,length;
-    Sets(int length){
+    PR_07_Sets(int length){
         this.length = length;
         arr = new int[this.length];
         index = -1;
@@ -32,10 +32,10 @@ class Sets {
     int cardinal(){
         return index+1;
     }
-    Sets union(Sets s2){
+    PR_07_Sets union(PR_07_Sets s2){
         int len = this.length + s2.length;
         int unionSetIndex = this.index+s2.index;
-        Sets unionSet = new Sets(len);
+        PR_07_Sets unionSet = new PR_07_Sets(len);
 
         for (int i = 0;i<=unionSetIndex;i++){
             if (!(unionSet.isPresent(this.arr[i])))
@@ -47,10 +47,10 @@ class Sets {
         return unionSet;
     }
 
-    Sets intersection(Sets s2){
+    PR_07_Sets intersection(PR_07_Sets s2){
         int len = this.length + s2.length;
         int intersectionSetIndex = this.index + s2.index;
-        Sets intersectionSet = new Sets (len);
+        PR_07_Sets intersectionSet = new PR_07_Sets (len);
 
         for (int i = 0;i<intersectionSetIndex;i++){
             if (!(intersectionSet.isPresent(this.arr[i])))
@@ -67,9 +67,9 @@ class Sets {
 
 class Main{
     public static void main(String[] args) {
-        Sets A = new Sets(10);
-        Sets B = new Sets(10);
-        Sets C,D;
+        PR_07_Sets A = new PR_07_Sets(10);
+        PR_07_Sets B = new PR_07_Sets(10);
+        PR_07_Sets C,D;
         A.add(1);
         A.add(2);   
         A.add(3);    
