@@ -4,7 +4,7 @@ class PR_06_SquareRoot {
     static int findNearestSqrt(double n) {
         int i = 0;
         while (true) {
-            if (i * i <= n && (i + 1) * (i + 1) > n)
+            if (i*i<=n&&(i + 1)*(i + 1)>n)
                 return i;
             i++;
         }
