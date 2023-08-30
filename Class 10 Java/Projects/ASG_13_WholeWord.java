@@ -26,7 +26,7 @@ class ASG_13_WholeWord {
         }
 
 
-        System.out.println("Frequency of Whole Words : "+freqWhole);
+        System.out.println("Frequency of Whole W ords : "+freqWhole);
         System.out.println("Frequency of "+w+" : "+totalFreq);
     }    
 }
