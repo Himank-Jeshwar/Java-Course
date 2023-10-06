@@ -1,5 +1,5 @@
 import java.util.*;
-class ASG_9_PalindromeString {
+class ASG_6_Palindrome {
     String s; // declaration
 
     void input(){
@@ -30,7 +30,7 @@ class ASG_9_PalindromeString {
         return (s.equals(rev));
     }
     public static void main(String[] args) {
-        ASG_9_PalindromeString ps = new ASG_9_PalindromeString();
+        ASG_6_Palindrome ps = new ASG_6_Palindrome();
         ps.input();        
     }    
 }

@@ -1,5 +1,5 @@
 import java.util.*;
-class PR_02_SentenceCase{
+class ASG_10_SentenceCase{
     public static void main(String []args){
         String s,st;
         int c = 0;

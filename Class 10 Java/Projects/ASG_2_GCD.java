@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ASG_4_GCD {
+public class ASG_2_GCD {
     int a,b;
     void accept(){
         Scanner sc = new Scanner(System.in);
@@ -20,7 +20,7 @@ public class ASG_4_GCD {
         System.out.println("G.C.D = "+ans);
 }
     public static void main(String[] args) {
-      ASG_4_GCD gcd = new ASG_4_GCD();
+      ASG_2_GCD gcd = new ASG_2_GCD();
       gcd.accept();
       gcd.findGCD();
       }

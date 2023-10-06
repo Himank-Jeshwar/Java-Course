@@ -1,4 +1,4 @@
-class ASG_2_Random{
+class ASG_3_Random{
     public static void main(String[] args) {
         // declaration
         int n = (int)(Math.random()*(650-500)+500);

@@ -1,5 +1,5 @@
 import java.util.*;
-class ASG_12_EndswithPhrase{
+class ASG_12_EndswithING{
     public static void main(String[] args) {
         String s,w = "";
         int n = 0;
@@ -8,7 +8,7 @@ class ASG_12_EndswithPhrase{
         s = sc.nextLine().toLowerCase().trim()+" ";
 
         for (int i = 0;i<s.length();i++){
-            if (Character.isDigit(s.charAt(i))){
+            if (s.charAt(i)>=48&&s.charAt(i)<=57){
                 System.out.println("ERROR - Digits NOT ALLOWED");
                 System.exit(0);
             }
@@ -21,4 +21,5 @@ class ASG_12_EndswithPhrase{
         }
         System.out.println("Frequency of words that end with ing = "+n);
     }
+    
 }

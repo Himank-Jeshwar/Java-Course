@@ -1,5 +1,5 @@
 import java.util.*;
-class ASG_11_CountVowels {
+class ASG_9_CountVowels {
     boolean isVowel(char ch){
         String vowels = "AEIOU"; // storing all vowels
         if (vowels.indexOf(ch)!=-1) // check for vowel
@@ -19,7 +19,7 @@ class ASG_11_CountVowels {
         String s; // declaration       
         int freq = 0; // initializing frequency
 
-        ASG_11_CountVowels ob = new ASG_11_CountVowels();
+        ASG_9_CountVowels ob = new ASG_9_CountVowels();
         Scanner sc = new Scanner (System.in);
 
         System.out.println("Enter sentence : ");

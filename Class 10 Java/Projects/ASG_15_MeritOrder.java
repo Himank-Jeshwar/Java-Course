@@ -1,10 +1,10 @@
 import java.util.*;
-class ASG_17_BubbleSort {
+class ASG_15_MeritOrder {
     // declaration
     String n,sub[];
     double m[];
 
-    public ASG_17_BubbleSort(){
+    public ASG_15_MeritOrder(){
         // allocating space
         sub = new String[10];
         m = new double[10];
@@ -54,7 +54,7 @@ class ASG_17_BubbleSort {
             System.out.println(sub[i]+" - "+m[i]);
     }
     public static void main(String[] args) {
-        ASG_17_BubbleSort ob = new ASG_17_BubbleSort();
+        ASG_15_MeritOrder ob = new ASG_15_MeritOrder();
         ob.input();
         ob.sort();
         ob.display();        

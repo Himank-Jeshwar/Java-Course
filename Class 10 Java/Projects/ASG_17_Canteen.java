@@ -1,7 +1,7 @@
 import java.util.*;
-class ASG_16_Canteen{
+class ASG_17_Canteen{
     double b[],s[],n[],fr[]; // declaration
-    public ASG_16_Canteen(){
+    public ASG_17_Canteen(){
         // allocating space
         b = new double[5];
         s = new double[5];
@@ -62,7 +62,7 @@ class ASG_16_Canteen{
 
     public static void main(String[] args) {
         // instantiation
-        ASG_16_Canteen ob = new ASG_16_Canteen();
+        ASG_17_Canteen ob = new ASG_17_Canteen();
         ob.accept();
 
         // output

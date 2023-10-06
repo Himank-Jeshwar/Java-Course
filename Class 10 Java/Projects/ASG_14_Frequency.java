@@ -1,5 +1,5 @@
 import java.util.*;
-class ASG_3_Frequency{
+class ASG_14_Frequency{
     public static void main(String[] args) {
         // declaration
         String str,word;

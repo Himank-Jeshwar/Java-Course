@@ -1,9 +1,9 @@
 import java.util.*;
-class ASG_18_SelectionSort {
+class ASG_16_SelectionSort {
     // declaration
     String words[];
 
-    public ASG_18_SelectionSort(){
+    public ASG_16_SelectionSort(){
         words = new String[10];
     }
     void input (){
@@ -19,7 +19,7 @@ class ASG_18_SelectionSort {
         int min = 0;
 
         // sorting in alphabetical order
-        for (int i = 0;i<10;i++){
+        for (int i = 0;i<9;i++){
             min = i;
             for (int j = i+1;j<10;j++)
                 if (words[j].compareTo(words[min])<0)
@@ -37,7 +37,7 @@ class ASG_18_SelectionSort {
             System.out.print(words[i]+" ");
     }
     public static void main(String[] args) {
-        ASG_18_SelectionSort ob = new ASG_18_SelectionSort();
+        ASG_16_SelectionSort ob = new ASG_16_SelectionSort();
         ob.input();
         ob.display();
 

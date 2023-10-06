@@ -1,7 +1,7 @@
 import java.util.*;
-class ASG_10_Time {
+class ASG_8_Time {
     int h,m,s;
-    ASG_10_Time(){
+    ASG_8_Time(){
         h = 0;
         m = 0;
         s = 0;
@@ -45,7 +45,7 @@ class ASG_10_Time {
         System.out.println("Increase in time : "+hr+" hour(s) "+min+" minute(s) "+sec+" second(s)");
     }
     public static void main(String[] args) {
-        ASG_10_Time t = new ASG_10_Time();
+        ASG_8_Time t = new ASG_8_Time();
         t.accept();
         t.print();
         t.add();
