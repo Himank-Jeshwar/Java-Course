@@ -1,5 +1,5 @@
 import java.util.*;
-class PR_47_Occurences {
+class PR_46_Occurences {
     public static void main(String[] args) {
         int count = 0,n;
         String checked = "";

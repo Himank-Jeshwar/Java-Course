@@ -1,5 +1,5 @@
 import java.util.*;
-class PR_46_ContinuousSubArraySum {
+class PR_45_ContinuousSubArraySum {
     public static void main(String[] args) {
         int a[],n,num,s=0;
         String subArr = "";

@@ -1,5 +1,5 @@
 import java.util.*;
-class PR_45_Pairs {
+class PR_44_Pairs {
     public static void main(String[] args) {
         int a[] ,n,num;
         
