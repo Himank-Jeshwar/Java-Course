@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-
+import java.time.*;;
 
 class MovieTicket {
 
@@ -8,12 +8,12 @@ class MovieTicket {
     int user_movies[],user_timings[];
     String user_seats[];
     int availableSeats[][][];
-    int movies ,timings,userCount;
-
+    int movies ,timings,userCount,tickets_No;
     public MovieTicket(){
         movies = 75;
         timings = 3;
         userCount = 0;
+        tickets_No = 1; 
         int seatNum = 0;
         
         availableSeats = new int[movies][timings][100];
@@ -21,7 +21,7 @@ class MovieTicket {
         user_seats = new String[availableSeats.length];
         user_movies = new int[availableSeats.length];
         user_timings = new int [availableSeats.length];
-        
+
         for (int i = 0;i<movies;i++){
             for (int j = 0;j<timings;j++){
                 seatNum = 0;
@@ -33,6 +33,11 @@ class MovieTicket {
 
     }
 
+    void showBarcodes(){
+        for (String el:barcodes){
+            System.out.println(el);
+        }
+    }
     void showMovies()throws IOException{
         File movies = new File("movies.txt");
         Scanner file = new Scanner(movies);
@@ -136,6 +141,9 @@ class MovieTicket {
             if(availableSeats[movieNum-1][timing-1][seat-1]==-1){
                 System.out.println("THIS SEAT IS ALREADY BOOKED !");
             }
+            else if (availableSeats[movieNum-1][timing-1][seat-1]==-2){
+                System.out.println("SEAT ALREADY SELECTED !");
+            }
             else{
                 if (seat<=10)
                     recliner++;
@@ -150,14 +158,17 @@ class MovieTicket {
             }
             showSeats(movieNum, timing);
             
-            System.out.print("Would you like to select one more seat (y/n)");
+            System.out.print("Would you like to continue booking seats (y/n)");
             flag = sc.next().toLowerCase().charAt(0);
 
         }while (flag=='y'); 
+ 
+        if (recliner==0 && prime==0 && classic==0) // no seats selected
+            return;
 
         System.out.println("Press y to pay : ");
         char pay = sc.next().toLowerCase().charAt(0);
-        
+
         if (pay=='y'){
             for (int i = 0;i<movies;i++){
                 for (int j = 0;j<timings;j++){
@@ -170,7 +181,7 @@ class MovieTicket {
             }
             makePayment(movieName,movieTime,bookedSeats,movieNum,timing,recliner,prime,classic);
         }
-        else{
+        else {
             bookedSeats = "";
             for (int i = 0;i<movies;i++){
                 for (int j = 0;j<timings;j++)
@@ -180,10 +191,10 @@ class MovieTicket {
                     }
             }
         }
-        
-        file.close();
-        file1.close();
-        sc.close();
+        showSeats(movieNum, timing);
+        // file.close();
+        // file1.close();
+        // sc.close();
     }
     String generateBarcode(){
         String id = "";        
@@ -194,19 +205,31 @@ class MovieTicket {
         return id;
     }
 
-    void makePayment(String movieName,String movieTime,String bookedSeats,int movieNum,int timing,int recliner,int prime,int classic) throws InterruptedException{
+    void makePayment(String movieName,String movieTime,String bookedSeats,int movieNum,int timing,int recliner,int prime,int classic) throws InterruptedException,IOException{
         double bill = recliner*350+prime*250+classic*150;
         double tax = 18*bill/100.0,net = bill + tax;
 
         Scanner sc = new Scanner(System.in);
+        
+        File file = new File("ticket"+tickets_No+".txt");
+        file.createNewFile();
 
-        if (recliner != 0)
+        FileWriter filewriter = new FileWriter("ticket"+tickets_No+".txt");
+
+        if (recliner != 0){
+            filewriter.write(recliner+" x Recliner = "+recliner*350+"\n");
             System.out.println(recliner+" x Recliner = "+recliner*350);
-        if (prime != 0) 
+        }
+        if (prime != 0){
+            filewriter.write(prime+" x Prime = "+prime*250+"\n");
             System.out.println(prime+" x Prime = "+prime*250);
-        if (classic != 0)
+        }
+        if (classic != 0){
+            filewriter.write(classic+" x Classic = "+classic*150+"\n");
             System.out.println(classic+" x Classic = "+classic*150);
+        }
 
+        filewriter.write("Bill = "+bill+"\nTax = "+tax+"\nNet amount to be paid : "+net+"\n");
         System.out.println("Bill = "+bill);
         System.out.println("Tax = "+tax);
         System.out.println("Net amount to be paid : "+net);
@@ -217,18 +240,24 @@ class MovieTicket {
         System.out.print("Enter your UPI pin to confirm: ");
         sc.nextInt();
 
-        System.out.print("PLEASE WAIT .... do not exit !");
+        System.out.print("\nPLEASE WAIT - PAYMENT PROCESSING..... do not exit !");
         Thread.sleep(3000); //
         
         String barcode = generateBarcode();
+
         storeUserData(movieNum,timing,bookedSeats,barcode);
-        System.out.println("\nYour Payment is Successful ! ");
+        
+        System.out.println("\n\nYour Payment is Successful ! ");
+        
+        filewriter.write("Movie Name - "+movieName+"\nTiming  - "+movieTime+"\nSeat Numbers - "+bookedSeats+"\nBarcode - "+barcode+"\n\n");
+
         System.out.println("Movie Name - "+movieName);
         System.out.println("Timing  - "+movieTime);
-        System.out.println("Seats - "+bookedSeats);
-        System.out.println("Barcode - "+barcode);
-    
-        sc.close();
+        System.out.println("Seat Numbers - "+bookedSeats);
+        System.out.println("Barcode - "+barcode+"\n\n");
+        
+        tickets_No++;
+        filewriter.close();
     }
 
     void storeUserData(int movieNum,int timing,String bookedSeats,String barcode){
@@ -248,15 +277,46 @@ class MovieTicket {
         System.out.print("Enter the timing number : ");
         int timing = sc.nextInt();
 
-        System.out.println("According to our cancellation policy , 75 % money is refundable \nand is valid upto 3 hours before the show timing.");
-        System.out.println("Press y to cancel : ");
+        System.out.println("According to our cancellation policy , ONLY 50 % money is refundable.");
+        System.out.println("Press y to cancel ticket: ");
         char ch = sc.next().toLowerCase().charAt(0); 
         
         if (ch=='y'){
             showSeats(movieNum, timing);
             System.out.print("Enter the barcode (8-Digit Code) : ");
-            String barcode = sc.next();
+            String userbarcode = sc.next();
             
+            String seatNum = "";
+            int i;
+            
+            for (i=0;i<userCount;i++){
+                if (barcodes[i].equals(userbarcode)){
+                    break;
+                }
+            }
+            
+            if (i==userCount){
+                System.out.println("INVALID BARCODE !");
+                return;
+            }
+
+            for (int j = 0;j<user_seats[i].length();j++){
+                if (user_seats[i].charAt(j)==' '){
+                    int movieNo,timeNo,seatNo;
+                    movieNo = user_movies[i];
+                    timeNo = user_timings[i];
+                    seatNo = Integer.parseInt(seatNum);
+
+                    availableSeats[movieNo-1][timeNo-1][seatNo-1] = seatNo;
+                    userCount--;
+                    seatNum="";
+                }
+                else
+                    seatNum+=user_seats[i].charAt(j);
+            }
+            showSeats(movieNum, timing);
+            System.out.println("Ticket cancelled successfully !");
+            System.out.println("Money will be refunded within 24 hours.");
             
         }
         
@@ -294,17 +354,39 @@ class MovieTicket {
         }
 
 
-    
+    void showMainMenu(){
+        System.out.println("\t\t\t\tPRESS 1 to show movies");
+        System.out.println("\t\t\t\tPRESS 2 to book tickets");
+        System.out.println("\t\t\t\tPRESS 3 to cancel tickets");
+        System.out.println("\t\t\t\tPRESS 4 to exit\n");
+    }
 
     public static void main(String args[])throws IOException,InterruptedException{
         MovieTicket ob = new MovieTicket();
-        ob.showMovies();
-        System.out.println();
-        ob.book();
-        ob.book();
-        for (String el:ob.barcodes)
-            System.out.println(el);
-        // ob.showSeats(1,2);
+        Scanner sc = new Scanner (System.in);
+        int choice ;
+        while (true){
+            ob.showMainMenu();
+            choice = sc.nextInt();
+
+            switch(choice){
+                case 1:
+                    ob.showMovies();
+                    break;
+                case 2:
+                    ob.book();
+                    break;
+                case 3:
+                    ob.cancelTicket();
+                    break;
+                case 4:
+                    System.exit(0);
+
+                default :
+                    System.out.println("INVALID INPUT");
+            }
+        }
+
         // ob.test();
     }
 }
