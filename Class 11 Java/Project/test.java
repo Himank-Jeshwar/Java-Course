@@ -1,15 +1,18 @@
 import java.io.*;
 import java.util.*;
 class test {
-    public static void main(String[] args) throws IOException{
-        File f = new File ("movies.txt");
-
-        Scanner sc = new Scanner(f);
-
-        while (sc.hasNextLine()==true){
-            String s = sc.nextLine();
-            System.out.println(s);
+    static String generateID(){
+        String id = "";        
+        for (int i = 0;i<8;i++){
+            int ch = (int)(Math.random()*(90-65)+65);
+            id+=(char)(ch);
         }
-        sc.close();
+        return id;
+    }
+    public static void main(String[] args) throws IOException{
+        // int n = (int)(Math.random()*(90-65)+65);
+        // System.out.println(n);
+    
+        System.out.println(generateID());
     }
 }
