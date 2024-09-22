@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Matrix
+comment1.params=x\ y
+comment1.target=Matrix(int,\ int)
+comment2.params=x\ y
+comment2.target=boolean\ isValid(int,\ int)
+comment3.params=
+comment3.target=void\ input()
+comment4.params=
+comment4.target=void\ decimalequivalent()
+comment5.params=
+comment5.target=void\ display()
+numComments=6

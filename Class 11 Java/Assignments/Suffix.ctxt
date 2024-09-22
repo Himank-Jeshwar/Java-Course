@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Suffix
+comment1.params=n
+comment1.target=Suffix(int)
+comment2.params=x
+comment2.target=boolean\ isValid(int)
+comment3.params=lastDigit
+comment3.target=void\ printSuffix(int)
+numComments=4

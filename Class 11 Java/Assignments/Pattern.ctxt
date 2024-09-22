@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Pattern
+comment1.params=x
+comment1.target=Pattern(int)
+comment2.params=n
+comment2.target=boolean\ isValid(int)
+comment3.params=
+comment3.target=void\ Floyd()
+numComments=4

@@ -1,75 +1,14 @@
-1 Srikanth 
-2 Amar Singh Chamkila
-3 Maidaan
-4 Laapataa Ladies
-5 Bade Miyan Chote Miyan
-6 The American Society of Magical Negroes 
-7 Ghostbusters: Frozen Empire 
-8 Godzilla x Kong: The New Empire 
-9 Rebel Moon Part 2: The Scargiver
-10 Kingdom of the Planet of the Apes 
-11 Arena Wars Action Gravitas Ventures— 
-12 Arena WarsActionGravitas Ventures— 
-13 Jesus Thirsts: The Miracle of the EucharistFaithFathom EventsLimited 
-14 The Acolyte (series)Sci-FiDisney+ OriginalDisney+ 
-15 Under ParisActionNetflix OriginalsNetflix 
-16 The HangmanHorrorDreadVOD / Digital 
-17 Baki Hanma VS Kengan AshuraAnimationNetflix OriginalsNetflix 
-18 Queer PlanetDocumentaryPeacockPeacock 
-19 Bad Boys: Ride or DieSequelSony PicturesIn Theaters 
-20 School of Magical Animals 2AdventureBlue Fox EntertainmentIn Theaters 
-21 LongingRemakeUniversal PicturesLimited 
-22 I Used to be FunnyDramaUtopiaLimited 
-23 Run Lola RunCrimeSony PicturesLimited 
-24 Trim SeasonHorrorPaper Street FilmsLimited 
-25 Someday We’ll Tell Each Other EverythingDramaStrand ReleasingLimited 
-26 Banel & AdamaDramaKino LorberLimited 
-27 Robot DreamsDramaNEONLos Angeles 
-28 Handling the UndeadHorrorNEONExpansion 
-29 Hit ManActionNetflix OriginalsNetflix 
-30 Big BoysComedyDark Star PicturesVOD / Digital 
-31 Inside Out 2AdventureWalt Disney StudiosIn Theaters 
-32 WatchersHorrorWarner Bros. PicturesIn Theaters 
-33 LatencyThrillerLionsgate StudiosLimited 
-34 RideDramaWell Go USALimited 
-35 TuesdayDramaA24Limited 
-36 TreasureComedyBleecker StreetLimited 
-37 FirebrandThrillerVerticalLimited 
-38 Fresh KillsDramaQuiver DistributionLimited 
-39 Bad BehaviourDramaGravitas VenturesLimited 
-40 QueendomLGBTQIA+Greenwich EntertainmentLimited 
-41 Summer SolsticeComedyCartilage FilmsLimited 
-42 GhostlightDramaIFC FilmsLimited 
-43 Cora BoraRomanceBrainstorm MediaLimited 
-44 The GrabDocumentaryMagnolia PicturesVOD / Digital 
-45 The PresentComedyGravitas VenturesLimited 
-46 Queen RisingThrillerBreaking Glass PicturesVOD / Digital 
-47 A Stork’s Journey 2AnimationLionsgate StudiosVOD / Digital 
-48 I Used to be FunnyDramaUtopiaVOD / Digital 
-49 FEDERER: Twelve Final DaysDocumentaryAmazon MGM StudiosPrime Video 
-50 Kinds of KindnessDramaSearchlight PicturesIn Theaters 
-51 The BikeridersDrama20th Century StudiosIn Theaters 
-52 Blackwater LaneSuspenseLionsgate StudiosLimited 
-53 The ExorcismHorrorVerticalLimited 
-54 Humanist Vampire Seeking Consenting Suicidal PersonDark ComedyDrafthouse FilmsLimited 
-55 Fancy DanceDramaApple Original FilmsLimited 
-56 She Rises UpDocumentaryAbramoramaLimited 
-57 Copa 71DocumentaryGreenwich EntertainmentLimited 
-58 Green BorderThrillerKino LorberNew York 
-59 Janet PlanetDramaA24New York 
-60 Agent ReconSci-FiQuiver DistributionVOD / Digital 
-61 It’s Not OverThrillerLionsgate StudiosVOD / Digital 
-62 A Quiet Place: Day OneSpin-offParamount PicturesIn Theaters 
-63 Horizon: An American SagaWesternWarner Bros. PicturesIn Theaters 
-64 DaddioDramaSony Pictures ClassicsIn Theaters 
-65 A SacrificeDramaVerticalLimited 
-66 The Human Surge 3DramaGrasshopper FilmLimited 
-67 Last SummerDramaJanus FilmsLimited 
-68 Janet PlanetDramaA24Limited 
-69 June ZeroDocumentaryCohen Media GroupLimited 
-70 Green BorderThrillerKino LorberLos Angeles 
-71 LongingDramaUniversal PicturesVOD / Digital 
-72 ReunionComedyRepublic PicturesVOD / Digital 
-73 Fancy DanceDramaApple Original FilmsApple TV+ 
-74 Bahubali 2 - The Conclusion
-75 KGF - Chapter 1
+1 Amar Singh Chamkila
+2 Maidaan
+3 Laapataa Ladies
+4 Bade Miyan Chote Miyan
+5 The American Society of Magical Negroes 
+6 Ghostbusters: Frozen Empire 
+7 Godzilla x Kong: The New Empire 
+8 Furiosa
+9 Nayan Rahasya
+10 Mr and Mrs Mahi
+11 Bhaiyya Ji
+12 Dabaru
+13 Hello Insaan
+14 Hello Insaan 2

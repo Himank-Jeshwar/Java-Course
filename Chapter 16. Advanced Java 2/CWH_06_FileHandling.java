@@ -11,7 +11,7 @@ public class CWH_06_FileHandling {
 
         // Write a file
         FileWriter filewriter = new FileWriter("HelloWorld.txt");
-        filewriter.write("Hello my name is Himank Jeshwar.\nThank You.");
+        filewriter.append("Hello my name is Himank Jeshwar.\nThank You.");
         filewriter.close();
 
         // Reading a file
@@ -23,6 +23,6 @@ public class CWH_06_FileHandling {
         sc.close();
 
         // Deleting a file
-        file1.delete();
+        // file1.delete();
     }
 }
