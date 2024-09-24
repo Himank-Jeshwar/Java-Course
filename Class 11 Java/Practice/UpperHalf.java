@@ -34,7 +34,7 @@ class UpperHalf {
             //     System.out.print(" ");
 
             for (int j = 0;j<size;j++)
-                if (j<=i)
+                if (j>=i)
                     System.out.print(A[i][j]);
             System.out.println();
         }
